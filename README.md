@@ -1,2 +1,2 @@
 ## Plant Analysis
-![alt text](https://github.com/godzmaru/PlantAnalysis/docs/Screen_Shot.png)
+![title](https://github.com/godzmaru/PlantAnalysis/docs/Screen_Shot.png)
