@@ -57,10 +57,8 @@ res = cv2.bitwise_and(new_roi2, new_roi2, mask = mask[:,:,0])
 bgr2[top_left[1]:bottom_right[1], top_left[0]: bottom_right[0]] = res
 
 #calculate average and print out result
-avg_color = cv2.mean(segmented)       #true color image
-print(avg_color)
-avg_nir = cv2.mean(res)               #near infrared image
-print(avg_nir)
+data = pixel_average(index_image, segmented, res)
+save_xlsfile(data, output_file = 'test.xlsx', sheet = 'Sheet1')
 
 display_image([bgr_copy, bgr2], size = (1000, 1000))
 plot_histogram_rgb(bgr_copy, colorspace = 'bgr')
