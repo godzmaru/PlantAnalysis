@@ -9,3 +9,8 @@ example_read_label.py
 test.xlsx
 
 ![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_2.png)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
