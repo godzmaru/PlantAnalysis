@@ -16,7 +16,7 @@ from PlantAnalysis import Plant
 #           irimg - 3-channel (BGR) image
 # Output:   return class of dict (see save_xlsfile to save into Excel spreadsheet)
 # =============================================================================
-def pixel_average(index, img, irimg):
+def pixel_average(index, label, img, irimg):
     data = {index: dict()}
     data[index] = Plant()
     path = glob.glob('./datafiles/*.dng')
@@ -26,7 +26,7 @@ def pixel_average(index, img, irimg):
         date,hour = v.split("_")
         blue, green, red, alpha = cv2.mean(img)
         irblue, irgreen, irred, iralpha = cv2.mean(irimg)
-        data[index].update({"date": date, "hours": hour, "red": red, "green": green, 
+        data[index].update({"date": date, "hours": hour, "label": label, "red": red, "green": green, 
             "blue": blue, "irred": irred, "irgreen": irgreen, "irblue": irblue})
         return data
     else:
