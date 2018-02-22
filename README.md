@@ -6,10 +6,8 @@ Below are few examples:
 
 example_segmentation.py
 
-![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_0.png)
-![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_1.png)
-![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_2.png)
-![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_3.png)
+![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_0.png)![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_1.png)
+![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_2.png)![alt text](https://github.com/godzmaru/PlantAnalysis/blob/master/docs/Screen_Shot_img_3.png)
 
 example_read_label.py
 
